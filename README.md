@@ -41,4 +41,4 @@ documentado. O labirinto e os pontos de energia devem ser gerados de forma aleat
 - [Lucas Dal Jovem Neyssinger](https://github.com/lucasdaljovem)
 - [Gustavo Abreu Pereira](https://github.com/GustavoAbreuuu)
 - [Sammuel Sobieski de Orleans](https://github.com/Bochica21)
-- [Pedro Schwable](https://github.com/penetraz)
+- [Vinicius Gomes Penetra](https://github.com/penetraz)
