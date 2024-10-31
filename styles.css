@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#labirinto {
+    display: inline-block;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #000;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.5s; /* Movimentação suave */
+}
+
+.clear {
+    background-color: #ffffff; /* Posições claras */
+}
+
+.obstacle {
+    background-color: #666666; /* Posições escuras/obstáculos */
+    color: #fff;
+}
+
+.energy {
+    background-color: #00ff00; /* Posições de recuperação de energia */
+}
+
+.start {
+    background-color: #87cefa; /* Posição inicial */
+}
+
+.end {
+    background-color: #ff4500; /* Posição final */
+}
+
+.robot {
+    background-color: #ffd700; /* Cor da célula do robô */
+    color: #000;
+}
+
+#info {
+    text-align: left;
+    max-width: 200px;
+}
+
+.movements-wrapper {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#movimentos {
+    list-style: none;
+    padding: 0;
+}
