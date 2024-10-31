@@ -11,15 +11,13 @@
     <div id="container">
         <div id="labirinto"></div>
         <div id="info">
-            <h3>Movimentos</h3>
-            <div class="movements-wrapper">
-                <ul id="movimentos"></ul>
-            </div>
+            <h3>Informações do Robô</h3>
             <p>Energia Restante: <span id="energia">50</span></p>
             <p>Total de Movimentos: <span id="total-movimentos">0</span></p>
+            <button onclick="buscaLargura()">Movimentação</button>
+            <button onclick="gerarLabirinto()">Gerar Novo Labirinto</button>
         </div>
     </div>
-    <button onclick="gerarLabirinto()">Gerar Novo Labirinto</button>
     <script src="script.js"></script>
 </body>
 </html>
