@@ -24,9 +24,20 @@ gerados pelo programa e caminhos percorridos pelo robô. Entregar o código font
 documentado. O labirinto e os pontos de energia devem ser gerados de forma aleatória. 
 
 
-## Instalação e Início
+## 🚀 Instalação e Execução  
+### **Pré-requisitos:**  
+- [Visual Studio Code](https://code.visualstudio.com/).  
+- Um navegador web (ex.: Google Chrome).  
 
-
+### **Passos para rodar o projeto:**  
+1. Faça o download do repositório:  
+   ```bash
+   git clone https://github.com/marcusreiss3/A3---IA-SIMBOLICA.git
+   
+Abra o Visual Studio Code.
+No VS Code, clique em File > Open Folder e selecione a pasta do projeto.
+Localize o arquivo index.html.
+Clique com o botão direito no arquivo e escolha Open with Live Server (se o plugin estiver instalado) ou simplesmente abra o arquivo index.html em um navegador.
 
 ## 🔧 Tecnologias
 
